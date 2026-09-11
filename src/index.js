@@ -44,7 +44,7 @@ async function getConfig(kv) {
     sourceChannels: [],
     targetGroups: [],
     forceJoinChannels: [],
-    forceJoinText: 'برای استفاده از ربات ابتدا در کانال‌های زیر عضو شوید:',
+    forceJoinText: 'برای استفاده از ربات ابتدا در کانال‌های زیر عضو شوید: @Barayand_ir',
     admins: [],
     buttons: [],
     broadcastBatchSize: 10,
