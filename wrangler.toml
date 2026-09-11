@@ -1,9 +1,8 @@
-name = "persian-telegram-bot"
+name = "barayandbot2"
 main = "src/index.js"
 compatibility_date = "2024-09-23"
 workers_dev = true
 
 [[kv_namespaces]]
 binding = "KV"
-id = "YOUR_KV_NAMESPACE_ID_HERE"
-preview_id = "YOUR_PREVIEW_KV_ID_HERE"
+id = "74a4f9b2a054419990f838ccb76c73a6"
