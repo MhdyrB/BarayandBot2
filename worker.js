@@ -36,7 +36,7 @@ async function userMenu(env,parent=null){
  const r=await env.DB.prepare(parent===null?'SELECT id,label FROM buttons WHERE parent_id IS NULL AND enabled=1 ORDER BY sort_order,id':'SELECT id,label FROM buttons WHERE parent_id=? AND enabled=1 ORDER BY sort_order,id').bind(...(parent===null?[]:[parent])).all();
  const rows=(r.results||[]).map(x=>[btn(x.label,`ub:${x.id}`)]);
  if(parent!==null)rows.push([btn('بازگشت','home')]);
- if(parent===null && (await getSetting(env,'contact_enabled','1'))==='1')rows.push([btn('ارتباط با مدیریت','contact')]);
+ if(parent===null && (await getSetting(env,'contact_enabled','1'))==='1')rows.push([btn('ارتباط با ما','contact')]);
  return kb(rows);
 }
 
