@@ -1,0 +1,14 @@
+{
+  "name": "persian-telegram-bot-cf",
+  "version": "1.0.0",
+  "description": "ربات تلگرامی پیشرفته فارسی برای Cloudflare Workers",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.78.0"
+  }
+}
