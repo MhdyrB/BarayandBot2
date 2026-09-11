@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "generic-telegram-bot",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-01",
+  "triggers": { "crons": ["*/5 * * * *"] },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "generic-telegram-bot-db",
+    "database_id": "PASTE_D1_DATABASE_ID_HERE"
+  }]
+}
