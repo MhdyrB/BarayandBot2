@@ -1,12 +1,12 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "generic-telegram-bot",
+  "name": "barayandbot2",
   "main": "worker.js",
   "compatibility_date": "2026-09-01",
   "triggers": { "crons": ["*/5 * * * *"] },
   "d1_databases": [{
     "binding": "DB",
-    "database_name": "generic-telegram-bot-db",
-    "database_id": "PASTE_D1_DATABASE_ID_HERE"
+    "database_name": "barayandbot2-db",
+    "database_id": "ff97f156-2f56-4e26-bf2d-8d544eafa04c"
   }]
 }
